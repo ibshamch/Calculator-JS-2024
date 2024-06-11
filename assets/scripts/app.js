@@ -13,26 +13,26 @@ function writeAndOutputDescription(operator, prevResult, enteredNumber) {
 function add() {
   const enteredNumber = getUserInput();
   const initialResult = currentResult;
-  currentResult = currentResult + enteredNumber;
+  currentResult += enteredNumber;
   writeAndOutputDescription("+", initialResult, enteredNumber);
 }
 
 function subtract() {
   const enteredNumber = getUserInput();
   const initialResult = currentResult;
-  currentResult = currentResult - enteredNumber;
+  currentResult -= enteredNumber;
   writeAndOutputDescription("-", initialResult, enteredNumber);
 }
 function multiply() {
   const enteredNumber = getUserInput();
   const initialResult = currentResult;
-  currentResult = currentResult * enteredNumber;
+  currentResult *= enteredNumber;
   writeAndOutputDescription("*", initialResult, enteredNumber);
 }
 function divide() {
   const enteredNumber = getUserInput();
   const initialResult = currentResult;
-  currentResult = currentResult / enteredNumber;
+  currentResult /= currentResult / enteredNumber;
   writeAndOutputDescription("/", initialResult, enteredNumber);
 }
 
