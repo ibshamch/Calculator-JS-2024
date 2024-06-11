@@ -8,7 +8,7 @@ Understanding the outputResult()
 How is javascript executed (top to bottom)
 using constant
 opening closing '' '' should be same
-"'' ''"
+quotes inside quotes "'' ''"
 string concatination
 string priority while working with numbers
 backtiks `` with template literals (multi-lines)
@@ -67,5 +67,33 @@ currentResult += enteredNumber
 -=
 \*=
 /=
-++
---
+++currentResult && currentResult++ pre and post
+--currentResult && currentResult-- pre and post
+
+## More types
+
+Boolean
+Object
+Array
+
+## Accessing array :
+
+array[0] or array [index]
+
+## Implementing operation tracking using arrays and objects
+
+logEnteries.push({})
+const logEntry = {
+operation: "ADD",
+enteredNumber,
+previousResult: initialResult,
+finalResult: currentResult,
+}
+logEnteries.push(logEntry);
+
+## Accessing Objects :
+
+Object.key
+Ibsham.name
+
+- You can also access function and array every data type you could imagine can be stored in objects.
