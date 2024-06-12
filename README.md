@@ -119,6 +119,7 @@ Undefined and null are types
 ## typeof
 
 used to check the type of value
+// Null,Array special type of object
 
 ## Correctly importing scripts with defer and async
 
