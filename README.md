@@ -97,3 +97,30 @@ Object.key
 Ibsham.name
 
 - You can also access function and array every data type you could imagine can be stored in objects.
+
+## Making logEntry Dynamic by creating function
+
+function writeToLog(previousResult, operation, enteredNumber, newResult) {
+const logEntry = {
+previousResult,
+operation,
+enteredNumber,
+finalResult: newResult,
+};
+logEnteries.push(logEntry);
+console.log(logEnteries);
+}
+
+## NAN vs Undefined & Null
+
+Nan is a value
+Undefined and null are types
+
+## typeof
+
+used to check the type of value
+
+## Correctly importing scripts with defer and async
+
+defer -> download scripts side by side but do not block the parsing of html and executes script after html is fully loaded
+async -> download scripts side by side but do not block the parsing of html and executes script right when downloaded even if html is not loaded fully (async order of execution is not guranteed)
